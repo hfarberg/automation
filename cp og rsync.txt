@@ -1,0 +1,4 @@
+﻿cp -avn - kopier mapper og filer, ikke skriv over, verbose
+
+
+rsync -aPvv - rsync, behold alt av rettigheter etc, Partial-støtte og progress, very verbose

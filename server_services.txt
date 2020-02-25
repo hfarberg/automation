@@ -1,0 +1,17 @@
+restic backup of /home and /pool1/storage to b2
+plex media server
+cifs server
+
+apt install zfsutils-linux
+zpool import -f pool1
+apt install samba
+cp /pool1/storage/configs/smb.conf /etc/samba/
+useradd anette
+smbpasswd -a anette
+smbpasswd -a havard
+usermod -a -G users anette
+usermod -a -G users havard
+apt install avahi-daemon
+echo deb https://downloads.plex.tv/repo/deb public main | sudo tee /etc/apt/sources.list.d/plexmediaserver.list
+curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add -
+sudo apt install plexmediaserver

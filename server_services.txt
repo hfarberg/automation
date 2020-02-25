@@ -4,6 +4,9 @@ cifs server
 
 apt install zfsutils-linux
 zpool import -f pool1
+sudo apt install restic
+cp /pool1/storage/configs/restic-* /home/havard
+cp /home/havard/restic-backup.sh / etc/cron.daily/
 apt install samba
 cp /pool1/storage/configs/smb.conf /etc/samba/
 useradd anette

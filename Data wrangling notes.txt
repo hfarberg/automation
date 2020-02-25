@@ -1,0 +1,41 @@
+NOTES
+
+http://nofilmschool.com/2011/09/data-wrangling/
+
+ExpressCard34 for CompactFlash and SDHC cards
+
+2 external drives (FW800)
+
+Always have 2 copies of everything before you willingly erase or move data.
+
+2 rolls of camera tape (red and green)
+Wrap cards that are OK to format in green tape, wrap enough tape that the cameraman has to unwrap it to use it again.
+
+UPS power supply for power interrupts.
+
+=================
+
+Folder Structure
+DAY 1 - date
+CamA
+RawA001 Folder (sequential num continues uninterrupted over days) <<<<dump absolutely everything on the card into this folder.
+RawA002 Folder (2nd dump of the day)
+CamB
+CamC
+Sound
+SND001 Folder (1st dump of the day)
+PLEASE READ ME - LOG NOTES.txt
+
+DAY 2
+DAY 3
+
+==================
+
+Check total data size on CF or SD card against the transferred files on hard drives (number of GBs). See that they're equal.
+
+5 spot checks (per 100 files).
+Watch beginning, scrub through and watch end.
+
+Don't bow to pressure to turn over cards to be formatted too quickly before checking data.
+
+Tell the person to which you're handing the card to be formatted that this card (w green tape) is OK to format. Verbal confirmation. Don't be ambiguous about it ("this is OK"). Tell them explicitly: "This is OK to format".

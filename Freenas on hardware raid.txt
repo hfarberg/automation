@@ -1,0 +1,2 @@
+If you must use a RAID controller, disable all write caching on it and disable all consistency checks. 
+If the RAID controller has a passthrough or JBOD mode, use it.

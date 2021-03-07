@@ -1,0 +1,4 @@
+//Ta backup av mainframe til lokal disk
+Robocopy.exe \\mainframe.i.farberg.no\storage 'A:\mainframe-copy\' /E /COPYALL /XO /R:5 /W:5 /TBD /NP /V
+
+
